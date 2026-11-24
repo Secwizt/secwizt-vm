@@ -1,0 +1,4 @@
+// App icon for svm-app.exe. Resource 1 is also loaded by window.rs for the window and taskbar.
+// svm.res is the compiled form linked by build.rs. After changing svm.ico, rebuild it with:
+//   rc.exe /nologo /fo svm.res svm.rc   (Windows SDK, run in this folder)
+1 ICON "svm.ico"

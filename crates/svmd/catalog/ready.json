@@ -1,0 +1,97 @@
+[
+  {
+    "id": "debian-13-20261123-cloud-amd64",
+    "name": "Debian",
+    "version": "13 (trixie)",
+    "edition": "Ready to run, text console",
+    "architecture": "x86_64",
+    "engine": "QEMU",
+    "vcpu": 2,
+    "ramGb": 2,
+    "diskGb": 20,
+    "bytes": 439484416,
+    "fileName": "debian-13-generic-amd64-20261123-2671.qcow2",
+    "sha256": "7b8981e785a013986df45133c1c74b722b1a6e4d6c80a975bdcdcece5c553131",
+    "url": "https://cloud.debian.org/images/cloud/trixie/20261123-2671/debian-13-generic-amd64-20261123-2671.qcow2",
+    "officialHosts": [
+      "cloud.debian.org",
+      "laotzu.ftp.acc.umu.se"
+    ],
+    "ready": {
+      "publisher": "Debian",
+      "desktop": false,
+      "firstBoot": "cloud-init",
+      "diskBytes": 3221225472,
+      "note": "Debian's official cloud image. You choose the user name and password before the first start."
+    }
+  },
+  {
+    "id": "ubuntu-26-04-20261108-cloud-amd64",
+    "name": "Ubuntu Server",
+    "version": "26.04 LTS",
+    "edition": "Ready to run, text console",
+    "architecture": "x86_64",
+    "engine": "QEMU",
+    "vcpu": 2,
+    "ramGb": 2,
+    "diskGb": 20,
+    "bytes": 861563904,
+    "fileName": "ubuntu-26.04-server-cloudimg-amd64.img",
+    "sha256": "7b90593f5532b49b7e3fe3d2743f0d1f0d822e5b07cebcd8e00c0df8069ecab9",
+    "url": "https://cloud-images.ubuntu.com/releases/26.04/release-20261108/ubuntu-26.04-server-cloudimg-amd64.img",
+    "officialHosts": [
+      "cloud-images.ubuntu.com"
+    ],
+    "signedChecksum": {
+      "format": "sha256-sums",
+      "sumsUrl": "https://cloud-images.ubuntu.com/releases/26.04/release-20261108/SHA256SUMS",
+      "signatureUrl": "https://cloud-images.ubuntu.com/releases/26.04/release-20261108/SHA256SUMS.gpg",
+      "fingerprint": "D2EB44626FDDC30B513D5BB71A5D6C4C7DB87C81"
+    },
+    "ready": {
+      "publisher": "Canonical",
+      "desktop": false,
+      "firstBoot": "cloud-init",
+      "diskBytes": 3758096384,
+      "note": "Ubuntu's official cloud image. You choose the user name and password before the first start."
+    }
+  },
+  {
+    "id": "kali-2026-3-qemu-amd64",
+    "name": "Kali Linux",
+    "version": "2026.3",
+    "edition": "Ready to run, desktop",
+    "architecture": "x86_64",
+    "engine": "QEMU",
+    "vcpu": 2,
+    "ramGb": 4,
+    "diskGb": 81,
+    "bytes": 3900428588,
+    "fileName": "kali-linux-2026.3-qemu-amd64.7z",
+    "sha256": "6a73c8496064cc5e6b26a82084b7a7e6d0aea92047e555af34a9208fd430bae8",
+    "url": "https://kali.download/base-images/kali-2026.3/kali-linux-2026.3-qemu-amd64.7z",
+    "officialHosts": [
+      "kali.download",
+      "cdimage.kali.org"
+    ],
+    "signedChecksum": {
+      "format": "sha256-sums",
+      "sumsUrl": "https://cdimage.kali.org/kali-2026.3/SHA256SUMS",
+      "signatureUrl": "https://cdimage.kali.org/kali-2026.3/SHA256SUMS.gpg",
+      "fingerprint": "827C8569F2518CC677FECA1AED65462EC8D5E4C5"
+    },
+    "ready": {
+      "publisher": "Kali Linux",
+      "desktop": true,
+      "firstBoot": "default-login",
+      "defaultUser": "kali",
+      "archive": {
+        "member": "kali-linux-2026.3-qemu-amd64.qcow2",
+        "bytes": 16638869504,
+        "sha256": "186bd39eedfb3214774a807215ef39f2fbece9d47a462d3fa4cc227877719fbd"
+      },
+      "diskBytes": 86000000000,
+      "note": "Kali's official ready-made machine. It starts with Kali's public default login, kali / kali. Change the password at the first sign-in."
+    }
+  }
+]

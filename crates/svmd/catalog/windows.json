@@ -1,0 +1,194 @@
+[
+  {
+    "id": "windows-10",
+    "name": "Windows 10",
+    "edition": "English (United States), x64",
+    "version": "22H2",
+    "collection": "Windows",
+    "note": "Microsoft download links expire after 24 hours. Windows requires a valid license.",
+    "sourceUrl": "https://www.microsoft.com/en-us/software-download/windows10ISO",
+    "sha256": "a6f470ca6d331eb353b815c043e327a347f594f37ff525f17764738fe812852e",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "Hyper-V",
+      "allowedEngines": [
+        "Hyper-V"
+      ],
+      "family": "windows",
+      "vcpu": 2,
+      "ramGb": 4,
+      "diskGb": 32,
+      "minVcpu": 1,
+      "minRamGb": 2,
+      "minDiskGb": 32,
+      "tpm": true,
+      "secureBoot": true
+    }
+  },
+  {
+    "id": "windows-11",
+    "name": "Windows 11",
+    "edition": "English, x64",
+    "version": "26H2",
+    "collection": "Windows",
+    "note": "Microsoft download links expire after 24 hours. Windows requires a valid license.",
+    "sourceUrl": "https://www.microsoft.com/en-us/software-download/windows11",
+    "sha256": "bd4307df32bc8af33b39ccecb1174aeb345386630f89a2b86c7a4e36b55ea650",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "Hyper-V",
+      "allowedEngines": [
+        "Hyper-V"
+      ],
+      "family": "windows",
+      "vcpu": 2,
+      "ramGb": 4,
+      "diskGb": 64,
+      "minVcpu": 2,
+      "minRamGb": 4,
+      "minDiskGb": 64,
+      "tpm": true,
+      "secureBoot": true
+    }
+  },
+  {
+    "id": "windows-server-2022",
+    "name": "Windows Server 2022",
+    "edition": "Evaluation",
+    "collection": "Windows",
+    "note": "Microsoft registration is required. The evaluation expires after 180 days.",
+    "sourceUrl": "https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "Hyper-V",
+      "allowedEngines": [
+        "Hyper-V"
+      ],
+      "family": "windows",
+      "vcpu": 2,
+      "ramGb": 4,
+      "diskGb": 50,
+      "minVcpu": 1,
+      "minRamGb": 2,
+      "minDiskGb": 32,
+      "tpm": false,
+      "secureBoot": true
+    }
+  },
+  {
+    "id": "windows-server-2025",
+    "name": "Windows Server 2025",
+    "edition": "Evaluation",
+    "collection": "Windows",
+    "note": "Microsoft registration is required. The evaluation expires after 180 days.",
+    "sourceUrl": "https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "Hyper-V",
+      "allowedEngines": [
+        "Hyper-V"
+      ],
+      "family": "windows",
+      "vcpu": 2,
+      "ramGb": 4,
+      "diskGb": 50,
+      "minVcpu": 1,
+      "minRamGb": 2,
+      "minDiskGb": 32,
+      "tpm": false,
+      "secureBoot": true
+    }
+  },
+  {
+    "id": "windows-xp",
+    "name": "Windows XP",
+    "collection": "Windows",
+    "note": "Bring your own ISO.",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "QEMU",
+      "allowedEngines": [
+        "QEMU"
+      ],
+      "family": "windows",
+      "vcpu": 1,
+      "ramGb": 1,
+      "diskGb": 16,
+      "minVcpu": 1,
+      "minRamGb": 1,
+      "minDiskGb": 8,
+      "tpm": false,
+      "secureBoot": false,
+      "legacyWindows": true
+    }
+  },
+  {
+    "id": "windows-vista",
+    "name": "Windows Vista",
+    "collection": "Windows",
+    "note": "Bring your own ISO.",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "QEMU",
+      "allowedEngines": [
+        "QEMU"
+      ],
+      "family": "windows",
+      "vcpu": 2,
+      "ramGb": 2,
+      "diskGb": 24,
+      "minVcpu": 1,
+      "minRamGb": 1,
+      "minDiskGb": 16,
+      "tpm": false,
+      "secureBoot": false,
+      "legacyWindows": true
+    }
+  },
+  {
+    "id": "windows-7",
+    "name": "Windows 7",
+    "collection": "Windows",
+    "note": "Bring your own ISO.",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "QEMU",
+      "allowedEngines": [
+        "QEMU"
+      ],
+      "family": "windows",
+      "vcpu": 2,
+      "ramGb": 2,
+      "diskGb": 32,
+      "minVcpu": 1,
+      "minRamGb": 1,
+      "minDiskGb": 16,
+      "tpm": false,
+      "secureBoot": false,
+      "legacyWindows": true
+    }
+  },
+  {
+    "id": "windows-8",
+    "name": "Windows 8",
+    "collection": "Windows",
+    "note": "Bring your own ISO.",
+    "profile": {
+      "architecture": "x86_64",
+      "engine": "QEMU",
+      "allowedEngines": [
+        "QEMU"
+      ],
+      "family": "windows",
+      "vcpu": 2,
+      "ramGb": 2,
+      "diskGb": 32,
+      "minVcpu": 1,
+      "minRamGb": 1,
+      "minDiskGb": 16,
+      "tpm": false,
+      "secureBoot": false,
+      "legacyWindows": true
+    }
+  }
+]

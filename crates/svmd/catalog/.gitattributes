@@ -1,0 +1,7 @@
+# Preserve the exact publisher bytes used by detached and cleartext signatures.
+*.SHA512SUMS -text
+*.SHA512SUMS.sign -text
+*.SHA256SUMS.asc -text
+*.gpg -text
+LICENSE.quickget -text
+*.SHA256SUMS -text

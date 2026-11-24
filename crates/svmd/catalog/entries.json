@@ -1,0 +1,75 @@
+[
+  {
+    "id": "debian-13-7-amd64-netinst",
+    "name": "Debian",
+    "version": "13.7.0",
+    "edition": "Network installer",
+    "architecture": "x86_64",
+    "engine": "Hyper-V",
+    "vcpu": 1,
+    "ramGb": 2,
+    "diskGb": 16,
+    "bytes": 792723456,
+    "fileName": "debian-13.7.0-amd64-netinst.iso",
+    "sha256": "a7ef94ac2fb9a7fec454552abd629b7cc9d5155c886165a45649f5ce6167e355",
+    "url": "https://cdimage.debian.org/debian-cd/13.7.0/amd64/iso-cd/debian-13.7.0-amd64-netinst.iso",
+    "officialHosts": [
+      "cdimage.debian.org"
+    ],
+    "signedChecksum": {
+      "format": "debian-sha512",
+      "sumsUrl": "https://cdimage.debian.org/debian-cd/13.7.0/amd64/iso-cd/SHA512SUMS",
+      "signatureUrl": "https://cdimage.debian.org/debian-cd/13.7.0/amd64/iso-cd/SHA512SUMS.sign",
+      "fingerprint": "DF9B9C49EAA9298432589D76DA87E80D6294BE9B"
+    },
+    "archiveUrl": "https://cdimage.debian.org/cdimage/archive/13.7.0/amd64/iso-cd/debian-13.7.0-amd64-netinst.iso"
+  },
+  {
+    "id": "debian-13-7-arm64-netinst",
+    "name": "Debian",
+    "version": "13.7.0",
+    "edition": "Network installer",
+    "architecture": "aarch64",
+    "engine": "QEMU",
+    "vcpu": 1,
+    "ramGb": 2,
+    "diskGb": 16,
+    "bytes": 735358976,
+    "fileName": "debian-13.7.0-arm64-netinst.iso",
+    "sha256": "6e93fa1759bd9d4b0fc11e938987de6967ee7de5297dac1be27c3a75cc17024b",
+    "url": "https://cdimage.debian.org/debian-cd/13.7.0/arm64/iso-cd/debian-13.7.0-arm64-netinst.iso",
+    "officialHosts": [
+      "cdimage.debian.org"
+    ],
+    "signedChecksum": {
+      "format": "debian-sha512",
+      "sumsUrl": "https://cdimage.debian.org/debian-cd/13.7.0/arm64/iso-cd/SHA512SUMS",
+      "signatureUrl": "https://cdimage.debian.org/debian-cd/13.7.0/arm64/iso-cd/SHA512SUMS.sign",
+      "fingerprint": "DF9B9C49EAA9298432589D76DA87E80D6294BE9B"
+    },
+    "archiveUrl": "https://cdimage.debian.org/cdimage/archive/13.7.0/arm64/iso-cd/debian-13.7.0-arm64-netinst.iso"
+  },
+  {
+    "id": "freebsd-15-1-amd64-disc1",
+    "name": "FreeBSD",
+    "version": "15.1",
+    "edition": "Disc 1 installer",
+    "architecture": "x86_64",
+    "engine": "QEMU",
+    "vcpu": 1,
+    "ramGb": 2,
+    "diskGb": 16,
+    "bytes": 1352255488,
+    "fileName": "FreeBSD-15.1-RELEASE-amd64-disc1.iso",
+    "sha256": "fa27646f05a1440fd26ffbb85e06a50bc86e128242a4e9cb7bb3ea76e1aa5fd9",
+    "url": "https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-amd64-disc1.iso",
+    "officialHosts": [
+      "download.freebsd.org"
+    ],
+    "signedChecksum": {
+      "format": "freebsd-sha256",
+      "sumsUrl": "https://www.freebsd.org/releases/15.1R/checksums/CHECKSUM.SHA256-FreeBSD-15.1-RELEASE-amd64.asc",
+      "fingerprint": "82563B84D0620EDC0DFB86413897F2E22E65AD3F"
+    }
+  }
+]

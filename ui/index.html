@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-mode="dark" data-fx="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Secwizt Virtual Machine</title>
+<link rel="stylesheet" href="core/tokens.css">
+<link rel="stylesheet" href="core/app.css">
+<link rel="stylesheet" href="core/screens.css">
+</head>
+<body>
+<template id="vector"><svg></svg></template>
+<div id="sky" aria-hidden="true"></div>
+<div class="app">
+  <header class="bar" id="bar"></header>
+  <nav class="nav" id="nav" aria-label="Main"></nav>
+  <main class="main" id="main" tabindex="-1"><h1>Connecting to the service</h1></main>
+  <footer class="foot"><span id="service-status" role="status">Connecting…</span><span style="margin-left:auto">Secwizt Private Limited</span></footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="core/api.js"></script>
+<script src="core/app.js"></script>
+<script src="core/sky.js"></script>
+<script src="core/intro.js"></script>
+<script src="screens/library.js"></script>
+<script src="screens/os_catalog.js"></script>
+<script src="screens/app_catalog.js"></script>
+<script src="screens/ready_images.js"></script>
+<script src="screens/transfers.js"></script>
+<script src="screens/backups.js"></script>
+<script src="screens/vm.js"></script>
+<script src="screens/networks.js"></script>
+<script src="screens/guard.js"></script>
+<script src="screens/newvm.js"></script>
+<script src="screens/whynot.js"></script>
+<script src="screens/settings.js"></script>
+</body>
+</html>

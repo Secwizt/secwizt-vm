@@ -1,0 +1,344 @@
+[
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "category": "Security",
+    "description": "Inspect network traffic and read packet captures.",
+    "licence": "GPL-2.0-or-later",
+    "publisher": "Wireshark Foundation",
+    "homepage": "https://www.wireshark.org/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["wireshark"]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": ["wireshark"],
+        "distros": ["fedora"]
+      },
+      "windows": {
+        "kind": "winget",
+        "package": "WiresharkFoundation.Wireshark"
+      }
+    }
+  },
+  {
+    "id": "nmap",
+    "name": "Nmap",
+    "category": "Security",
+    "description": "Discover hosts and services on a network you manage.",
+    "licence": "Nmap Public Source License",
+    "publisher": "Nmap Project",
+    "homepage": "https://nmap.org/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["nmap"]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": ["nmap"]
+      }
+    }
+  },
+  {
+    "id": "burp-community",
+    "name": "Burp Suite Community",
+    "category": "Security",
+    "description": "Inspect and debug web requests with a local proxy.",
+    "licence": "PortSwigger Community Edition licence",
+    "publisher": "PortSwigger",
+    "homepage": "https://portswigger.net/burp/communitydownload",
+    "note": "Publisher download page.",
+    "recipes": {}
+  },
+  {
+    "id": "suricata",
+    "name": "Suricata",
+    "category": "Security",
+    "description": "Monitor network traffic for suspicious activity.",
+    "licence": "GPL-2.0-only",
+    "publisher": "Open Information Security Foundation",
+    "homepage": "https://suricata.io/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["suricata"],
+        "distros": [
+          "debian",
+          "kali",
+          "parrot"
+        ]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": ["suricata"],
+        "distros": ["fedora"]
+      }
+    }
+  },
+  {
+    "id": "metasploit",
+    "name": "Metasploit Framework",
+    "category": "Security",
+    "description": "Security testing framework packaged by Kali and Parrot.",
+    "licence": "BSD-3-Clause",
+    "publisher": "Rapid7 and contributors",
+    "homepage": "https://www.metasploit.com/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["metasploit-framework"],
+        "distros": [
+          "kali",
+          "parrot"
+        ]
+      }
+    }
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Developer",
+    "description": "Track changes to files and work with Git repositories.",
+    "licence": "GPL-2.0-only",
+    "publisher": "Git project",
+    "homepage": "https://git-scm.com/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["git"]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": ["git"]
+      },
+      "windows": {
+        "kind": "winget",
+        "package": "Git.Git"
+      }
+    }
+  },
+  {
+    "id": "docker-engine",
+    "name": "Docker Engine",
+    "category": "Developer",
+    "description": "Build and run containers inside the guest.",
+    "licence": "Apache-2.0",
+    "publisher": "Docker",
+    "homepage": "https://docs.docker.com/engine/install/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": [
+          "docker-ce",
+          "docker-ce-cli",
+          "containerd.io",
+          "docker-buildx-plugin",
+          "docker-compose-plugin"
+        ],
+        "distros": [
+          "debian",
+          "ubuntu"
+        ],
+        "repository": "docker",
+        "fingerprint": "9DC858229FC7DD38854AE2D88D81803C0EBFCD88"
+      }
+    }
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "category": "Developer",
+    "description": "Edit and debug code in Microsoft's desktop editor.",
+    "licence": "Microsoft Software License Terms",
+    "publisher": "Microsoft",
+    "homepage": "https://code.visualstudio.com/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["code"],
+        "repository": "microsoft",
+        "fingerprint": "BC528686B50D79E339D3721CEB3E94ADBE1229CF"
+      },
+      "windows": {
+        "kind": "winget",
+        "package": "Microsoft.VisualStudioCode"
+      }
+    }
+  },
+  {
+    "id": "python",
+    "name": "Python 3",
+    "category": "Developer",
+    "description": "Run Python and create isolated environments with venv.",
+    "licence": "Python Software Foundation License",
+    "publisher": "Python Software Foundation",
+    "homepage": "https://www.python.org/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": [
+          "python3",
+          "python3-venv"
+        ]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": [
+          "python3",
+          "python3-pip"
+        ]
+      },
+      "windows": {
+        "kind": "winget",
+        "package": "Python.Python.3.13"
+      }
+    }
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Developer",
+    "description": "Run JavaScript and npm. The version follows your distribution.",
+    "licence": "MIT",
+    "publisher": "OpenJS Foundation",
+    "homepage": "https://nodejs.org/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": [
+          "nodejs",
+          "npm"
+        ]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": [
+          "nodejs",
+          "npm"
+        ],
+        "distros": ["fedora"]
+      },
+      "windows": {
+        "kind": "winget",
+        "package": "OpenJS.NodeJS.LTS"
+      }
+    }
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "category": "AI tools",
+    "description": "Run local language models.",
+    "licence": "MIT",
+    "publisher": "Ollama",
+    "homepage": "https://ollama.com/download",
+    "note": "Ollama publishes checksummed archives. This entry links to the publisher for manual installation.",
+    "recipes": {}
+  },
+  {
+    "id": "llama-cpp",
+    "name": "llama.cpp",
+    "category": "AI tools",
+    "description": "Run GGUF language models on the guest.",
+    "licence": "MIT",
+    "publisher": "ggml.ai and contributors",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "recipes": {
+      "fedora": {
+        "kind": "dnf",
+        "packages": ["llama-cpp"],
+        "distros": ["fedora"]
+      }
+    }
+  },
+  {
+    "id": "pytorch-cpu",
+    "name": "PyTorch CPU",
+    "category": "AI tools",
+    "description": "Use PyTorch for machine learning on a CPU in a Python virtual environment.",
+    "licence": "BSD-3-Clause",
+    "publisher": "PyTorch Foundation",
+    "homepage": "https://pytorch.org/get-started/locally/",
+    "note": "The publisher CPU index needs a fully pinned wheel set for repeatable checksum verification.",
+    "recipes": {}
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "category": "AI tools",
+    "description": "Make the pinned Open WebUI container image available inside a guest with Docker.",
+    "licence": "Open WebUI License",
+    "publisher": "Open WebUI",
+    "homepage": "https://docs.openwebui.com/getting-started/quick-start/",
+    "recipes": {
+      "debian": {
+        "kind": "image",
+        "image": "docker.io/openwebui/open-webui@sha256:0c4439e78c24c85e3e7a41936771d3b02f0df38daf28a086cd83ca74804f7676"
+      },
+      "fedora": {
+        "kind": "image",
+        "image": "docker.io/openwebui/open-webui@sha256:0c4439e78c24c85e3e7a41936771d3b02f0df38daf28a086cd83ca74804f7676"
+      }
+    }
+  },
+  {
+    "id": "7zip",
+    "name": "7-Zip",
+    "category": "Everyday",
+    "description": "Create and open compressed archives.",
+    "licence": "LGPL-2.1-or-later with unRAR restrictions",
+    "publisher": "Igor Pavlov",
+    "homepage": "https://www.7-zip.org/",
+    "recipes": {
+      "windows": {
+        "kind": "winget",
+        "package": "7zip.7zip"
+      }
+    }
+  },
+  {
+    "id": "jq",
+    "name": "jq",
+    "category": "Everyday",
+    "description": "Read, filter and transform JSON at the command line.",
+    "licence": "MIT",
+    "publisher": "jq contributors",
+    "homepage": "https://jqlang.org/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["jq"]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": ["jq"]
+      },
+      "windows": {
+        "kind": "winget",
+        "package": "jqlang.jq"
+      }
+    }
+  },
+  {
+    "id": "curl",
+    "name": "curl",
+    "category": "Everyday",
+    "description": "Transfer files and make HTTP requests from the command line.",
+    "licence": "curl licence",
+    "publisher": "curl project",
+    "homepage": "https://curl.se/",
+    "recipes": {
+      "debian": {
+        "kind": "apt",
+        "packages": ["curl"]
+      },
+      "fedora": {
+        "kind": "dnf",
+        "packages": ["curl"]
+      }
+    }
+  }
+]

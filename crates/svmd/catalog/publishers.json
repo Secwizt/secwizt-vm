@@ -1,0 +1,265 @@
+[
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "edition": "LTS Desktop",
+    "collection": "Open source",
+    "referenceId": "ubuntu",
+    "vcpu": 2,
+    "ramGb": 6,
+    "diskGb": 32,
+    "feed": "ubuntu-lts",
+    "current": "https://changelogs.ubuntu.com/meta-release-lts",
+    "fallback": "https://releases.ubuntu.com/26.04.1/",
+    "fallbackName": "ubuntu-26.04.1-desktop-amd64.iso",
+    "manifest": "SHA256SUMS",
+    "signature": "SHA256SUMS.gpg",
+    "prefix": "ubuntu-",
+    "suffix": "-desktop-amd64.iso",
+    "mediaHosts": [
+      "releases.ubuntu.com"
+    ],
+    "metadataHosts": [
+      "changelogs.ubuntu.com",
+      "releases.ubuntu.com"
+    ],
+    "keyUrl": "https://archive.ubuntu.com/ubuntu/project/ubuntu-archive-keyring.gpg",
+    "fingerprint": "843938DF228D22F7B3742BC0D94AA3F0EFE21092"
+  },
+  {
+    "id": "linux-mint",
+    "name": "Linux Mint",
+    "edition": "Cinnamon",
+    "collection": "Open source",
+    "referenceId": "linux-mint",
+    "vcpu": 2,
+    "ramGb": 4,
+    "diskGb": 32,
+    "feed": "version-index",
+    "current": "https://pub.linuxmint.io/stable/",
+    "fallback": "https://pub.linuxmint.io/stable/22.3/",
+    "fallbackName": "linuxmint-22.3-cinnamon-64bit.iso",
+    "manifest": "sha256sum.txt",
+    "signature": "sha256sum.txt.gpg",
+    "prefix": "linuxmint-",
+    "suffix": "-cinnamon-64bit.iso",
+    "mediaHosts": [
+      "pub.linuxmint.io"
+    ],
+    "metadataHosts": [
+      "pub.linuxmint.io"
+    ],
+    "keyUrl": "https://keys.openpgp.org/vks/v1/by-fingerprint/27DEB15644C6B3CF3BD7D291300F846BA25BAE09",
+    "fingerprint": "27DEB15644C6B3CF3BD7D291300F846BA25BAE09"
+  },
+  {
+    "id": "fedora",
+    "name": "Fedora",
+    "edition": "Workstation",
+    "collection": "Open source",
+    "referenceId": "fedora",
+    "vcpu": 2,
+    "ramGb": 4,
+    "diskGb": 32,
+    "feed": "fedora",
+    "current": "https://fedoraproject.org/releases.json",
+    "fallback": "https://dl.fedoraproject.org/pub/fedora/linux/releases/45/Workstation/x86_64/iso/",
+    "fallbackName": "Fedora-Workstation-Live-45-1.4.x86_64.iso",
+    "manifest": "",
+    "prefix": "Fedora-Workstation-Live-",
+    "suffix": ".x86_64.iso",
+    "mediaHosts": [
+      "dl.fedoraproject.org"
+    ],
+    "metadataHosts": [
+      "fedoraproject.org",
+      "dl.fedoraproject.org"
+    ],
+    "keyUrl": "https://fedoraproject.org/fedora.gpg",
+    "fingerprint": "4F50A6114CD5C6976A7F1179655A4B02F577861E"
+  },
+  {
+    "id": "rocky-linux",
+    "name": "Rocky Linux",
+    "edition": "Minimal",
+    "collection": "Open source",
+    "referenceId": "rocky-linux",
+    "vcpu": 1,
+    "ramGb": 2,
+    "diskGb": 16,
+    "feed": "rocky",
+    "current": "https://download.rockylinux.org/pub/rocky/10/isos/x86_64/",
+    "fallback": "https://download.rockylinux.org/pub/rocky/10.3/isos/x86_64/",
+    "fallbackName": "Rocky-10.3-20261113.0-x86_64-minimal.iso",
+    "manifest": "",
+    "prefix": "Rocky-",
+    "suffix": "-x86_64-minimal.iso",
+    "mediaHosts": [
+      "download.rockylinux.org"
+    ],
+    "metadataHosts": [
+      "download.rockylinux.org"
+    ],
+    "keyUrl": "https://download.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-10",
+    "fingerprint": "FC226859C0860BF0DDB95B085B106C736FEDFC85"
+  },
+  {
+    "id": "almalinux",
+    "name": "AlmaLinux",
+    "edition": "Minimal",
+    "collection": "Open source",
+    "referenceId": "almalinux",
+    "vcpu": 1,
+    "ramGb": 2,
+    "diskGb": 16,
+    "feed": "manifest",
+    "current": "https://repo.almalinux.org/almalinux/10/isos/x86_64/",
+    "fallback": "https://repo.almalinux.org/almalinux/10.3/isos/x86_64/",
+    "fallbackName": "AlmaLinux-10.3-x86_64-minimal.iso",
+    "manifest": "CHECKSUM",
+    "prefix": "AlmaLinux-",
+    "suffix": "-x86_64-minimal.iso",
+    "mediaHosts": [
+      "repo.almalinux.org"
+    ],
+    "metadataHosts": [
+      "repo.almalinux.org"
+    ],
+    "keyUrl": "https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-10",
+    "fingerprint": "EE6DB7B98F5BF5EDD9DA0DE5DEE5C11CC2A1E572"
+  },
+  {
+    "id": "arch-linux",
+    "name": "Arch Linux",
+    "edition": "Installer",
+    "collection": "Open source",
+    "referenceId": "arch-linux",
+    "vcpu": 1,
+    "ramGb": 2,
+    "diskGb": 16,
+    "feed": "manifest",
+    "current": "https://geo.mirror.pkgbuild.com/iso/latest/",
+    "fallback": "https://geo.mirror.pkgbuild.com/iso/2026.11.01/",
+    "fallbackName": "archlinux-2026.11.01-x86_64.iso",
+    "manifest": "sha256sums.txt",
+    "prefix": "archlinux-",
+    "suffix": "-x86_64.iso",
+    "mediaHosts": [
+      "geo.mirror.pkgbuild.com"
+    ],
+    "metadataHosts": [
+      "geo.mirror.pkgbuild.com"
+    ],
+    "keyUrl": "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C",
+    "fingerprint": "3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C",
+    "assetSignature": true
+  },
+  {
+    "id": "opensuse",
+    "name": "openSUSE",
+    "edition": "Leap Network Installer",
+    "collection": "Open source",
+    "referenceId": "opensuse",
+    "vcpu": 2,
+    "ramGb": 4,
+    "diskGb": 32,
+    "feed": "opensuse",
+    "current": "https://download.opensuse.org/pub/opensuse/distribution/openSUSE-stable/offline/",
+    "fallback": "https://download.opensuse.org/pub/opensuse/distribution/leap/16.1/offline/",
+    "fallbackName": "Leap-16.1-online-installer-x86_64.install.iso",
+    "manifest": "",
+    "prefix": "Leap-",
+    "suffix": "-online-installer-x86_64.install.iso",
+    "mediaHosts": [
+      "download.opensuse.org"
+    ],
+    "metadataHosts": [
+      "download.opensuse.org"
+    ],
+    "keyUrl": "https://download.opensuse.org/pub/opensuse/tumbleweed/repo/oss/gpg-pubkey-29b700a4-6a17fa38.asc",
+    "fingerprint": "AD485664E901B867051AB15F35A2F86E29B700A4",
+    "sha512": true
+  },
+  {
+    "id": "security-onion",
+    "name": "Security Onion",
+    "edition": "Defensive Monitoring Installer",
+    "collection": "Security",
+    "referenceId": "security-onion",
+    "vcpu": 4,
+    "ramGb": 16,
+    "diskGb": 200,
+    "feed": "security-onion",
+    "current": "https://raw.githubusercontent.com/Security-Onion-Solutions/securityonion/3/main/DOWNLOAD_AND_VERIFY_ISO.md",
+    "fallback": "https://raw.githubusercontent.com/Security-Onion-Solutions/securityonion/4dc7f2d97c887eb9e2ad00c403b5b265b0cd333f/DOWNLOAD_AND_VERIFY_ISO.md",
+    "fallbackName": "securityonion-3.4.0-20261102.iso",
+    "manifest": "",
+    "prefix": "securityonion-",
+    "suffix": ".iso",
+    "mediaHosts": [
+      "download.securityonion.net"
+    ],
+    "metadataHosts": [
+      "raw.githubusercontent.com"
+    ],
+    "keyUrl": "https://raw.githubusercontent.com/Security-Onion-Solutions/securityonion/3/main/KEYS",
+    "fingerprint": "C804A93D36BE0C733EA196447C1060B7FE507013",
+    "assetSignature": true,
+    "fallbackKeyUrl": "https://raw.githubusercontent.com/Security-Onion-Solutions/securityonion/4dc7f2d97c887eb9e2ad00c403b5b265b0cd333f/KEYS"
+  },
+  {
+    "id": "kali-linux",
+    "name": "Kali Linux",
+    "edition": "Network Installer",
+    "collection": "Security",
+    "referenceId": "kali-linux",
+    "feed": "manifest",
+    "current": "https://cdimage.kali.org/current/",
+    "fallback": "https://kali.download/base-images/kali-2026.3/",
+    "fallbackName": "kali-linux-2026.3-installer-netinst-amd64.iso",
+    "manifest": "SHA256SUMS",
+    "signature": "SHA256SUMS.gpg",
+    "prefix": "kali-linux-",
+    "suffix": "-installer-netinst-amd64.iso",
+    "mediaHosts": [
+      "kali.download",
+      "cdimage.kali.org"
+    ],
+    "metadataHosts": [
+      "cdimage.kali.org",
+      "kali.download"
+    ],
+    "keyUrl": "https://archive.kali.org/archive-key.asc",
+    "fingerprint": "827C8569F2518CC677FECA1AED65462EC8D5E4C5",
+    "vcpu": 2,
+    "ramGb": 4,
+    "diskGb": 32
+  },
+  {
+    "id": "parrot-security",
+    "name": "Parrot Security",
+    "edition": "Security Edition",
+    "collection": "Security",
+    "referenceId": "parrot-security",
+    "feed": "version-index",
+    "current": "https://download.parrot.sh/parrot/iso/",
+    "fallback": "https://download.parrot.sh/parrot/iso/7.4/",
+    "fallbackName": "Parrot-security-7.4_amd64.iso",
+    "manifest": "signed-hashes.txt",
+    "prefix": "Parrot-security-",
+    "suffix": "_amd64.iso",
+    "mediaHosts": [
+      "download.parrot.sh",
+      "bunny.deb.parrot.sh"
+    ],
+    "metadataHosts": [
+      "download.parrot.sh"
+    ],
+    "keyUrl": "https://deb.parrot.sh/parrot/misc/parrotsec.gpg",
+    "fallbackKeyUrl": "https://deb.parrot.sh/parrot/misc/parrotsec.gpg",
+    "fingerprint": "B711822346552E4D92DA02DF7A8286AF0E81EE4A",
+    "vcpu": 2,
+    "ramGb": 4,
+    "diskGb": 48
+  }
+]

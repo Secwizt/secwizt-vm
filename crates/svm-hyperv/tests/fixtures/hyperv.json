@@ -1,0 +1,20 @@
+{
+  "define": {"exit":0,"params":{"sw":"SVM-test","name":"svm-test-fixture","vcpu":1,"mac":"027700000102","ramMb":1024,"marker":"secwiz-vm:fixture"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":3,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null},
+  "hostile-name": {"exit":0,"params":{"name":"x'; Remove-VM *; '"},"stdout":{"ourVmStillThere":true,"found":false},"stderr":null},
+  "missing-vm": {"exit":3,"params":{"name":"svm-test-does-not-exist"},"stdout":null,"stderr":{"error":"Hyper-V was unable to find a virtual machine with name \"svm-test-does-not-exist\".","id":"InvalidParameter,Microsoft.HyperV.PowerShell.Commands.GetVM"}},
+  "pause": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":9,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null},
+  "remove": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"stillExists":false},"stderr":null},
+  "resume": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":2,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null},
+  "revert": {"exit":0,"params":{"name":"svm-test-fixture","snap":"s1"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":2,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null},
+  "snapshot-delete": {"exit":0,"params":{"name":"svm-test-fixture","snap":"s1"},"stdout":{"remaining":0},"stderr":null},
+  "snapshot-memory": {"exit":0,"params":{"name":"svm-test-fixture","snap":"s1"},"stdout":{"Name":"s1","Id":"00000000-0000-4000-8000-000000000002","ParentSnapshotId":null,"SnapshotType":0,"Created":"2026-11-18T18:22:39.8914010Z"},"stderr":null},
+  "start": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":2,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null},
+  "state-off": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":3,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null},
+  "stop-guest": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":3,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null},
+  "switch-create": {"exit":0,"params":{"sw":"SVM-test"},"stdout":{"Name":"SVM-test","Id":"00000000-0000-4000-8000-000000000003","SwitchType":1},"stderr":null},
+  "switch-list": {"exit":0,"params":{},"stdout":[{"Name":"Default Switch","Id":"00000000-0000-4000-8000-000000000004","SwitchType":1},{"Name":"SVM-test","Id":"00000000-0000-4000-8000-000000000003","SwitchType":1}],"stderr":null},
+  "switch-remove": {"exit":0,"params":{"sw":"SVM-test"},"stdout":{"stillExists":false},"stderr":null},
+  "thumbnail-off": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"bytes":1,"returnValue":32775},"stderr":null},
+  "thumbnail": {"exit":0,"params":{"w":320,"name":"svm-test-fixture","h":240},"stdout":{"expected":153600,"returnValue":0,"bytes":153604,"base64Head":"AAJYBAAAAAAAAAAAAAAAAAAAAAAAAAAA"},"stderr":null},
+  "turnoff": {"exit":0,"params":{"name":"svm-test-fixture"},"stdout":{"Name":"svm-test-fixture","VMId":"00000000-0000-4000-8000-000000000001","State":3,"Status":"Operating normally","Generation":2,"ProcessorCount":1,"MemoryStartup":1073741824,"Notes":"secwiz-vm:fixture"},"stderr":null}
+}

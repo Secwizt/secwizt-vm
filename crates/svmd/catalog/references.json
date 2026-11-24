@@ -1,0 +1,120 @@
+[
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "edition": "Desktop",
+    "collection": "Open source",
+    "sourceUrl": "https://ubuntu.com/desktop"
+  },
+  {
+    "id": "ubuntu-flavors",
+    "name": "Ubuntu flavors",
+    "collection": "Open source",
+    "sourceUrl": "https://ubuntu.com/desktop/flavors"
+  },
+  {
+    "id": "fedora",
+    "name": "Fedora",
+    "collection": "Open source",
+    "sourceUrl": "https://fedoraproject.org/"
+  },
+  {
+    "id": "linux-mint",
+    "name": "Linux Mint",
+    "collection": "Open source",
+    "sourceUrl": "https://linuxmint.com/about.php"
+  },
+  {
+    "id": "arch-linux",
+    "name": "Arch Linux",
+    "collection": "Open source",
+    "sourceUrl": "https://archlinux.org/"
+  },
+  {
+    "id": "opensuse",
+    "name": "openSUSE",
+    "collection": "Open source",
+    "sourceUrl": "https://www.opensuse.org/"
+  },
+  {
+    "id": "rocky-linux",
+    "name": "Rocky Linux",
+    "collection": "Open source",
+    "sourceUrl": "https://rockylinux.org/"
+  },
+  {
+    "id": "almalinux",
+    "name": "AlmaLinux",
+    "collection": "Open source",
+    "sourceUrl": "https://almalinux.org/"
+  },
+  {
+    "id": "openbsd",
+    "name": "OpenBSD",
+    "collection": "Open source",
+    "sourceUrl": "https://www.openbsd.org/"
+  },
+  {
+    "id": "android-x86",
+    "name": "Android-x86",
+    "collection": "Open source",
+    "sourceUrl": "https://www.android-x86.org/"
+  },
+  {
+    "id": "kali-linux",
+    "name": "Kali Linux",
+    "collection": "Security",
+    "note": "Linux distribution for security auditing and research."
+  },
+  {
+    "id": "parrot-security",
+    "name": "Parrot Security",
+    "collection": "Security",
+    "note": "Linux distribution for security research and privacy."
+  },
+  {
+    "id": "remnux",
+    "name": "REMnux",
+    "collection": "Security",
+    "note": "Linux toolkit for malware analysis.",
+    "sourceUrl": "https://remnux.org/"
+  },
+  {
+    "id": "security-onion",
+    "name": "Security Onion",
+    "collection": "Security",
+    "note": "Platform for network monitoring and threat detection.",
+    "sourceUrl": "https://docs.securityonion.net/en/2.4/introduction.html"
+  },
+  {
+    "id": "csi-linux",
+    "name": "CSI Linux",
+    "collection": "Security",
+    "note": "Linux distribution for digital forensics and incident response."
+  },
+  {
+    "id": "blackarch",
+    "name": "BlackArch Linux",
+    "collection": "Security",
+    "note": "Arch-based distribution for security research."
+  },
+  {
+    "id": "metasploitable",
+    "name": "Metasploitable 2/3",
+    "collection": "Security",
+    "note": "Isolated network only"
+  },
+  {
+    "id": "flare-vm",
+    "name": "FLARE-VM",
+    "collection": "Security",
+    "note": "Windows toolkit for malware analysis and reverse engineering.",
+    "sourceUrl": "https://cloud.google.com/security/flare"
+  },
+  {
+    "id": "commando-vm",
+    "name": "Commando VM",
+    "collection": "Security",
+    "note": "Windows toolkit for security assessment."
+  }
+]

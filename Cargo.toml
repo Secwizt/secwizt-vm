@@ -1,0 +1,8 @@
+[workspace]
+members = ["crates/svm-core", "crates/svm-hyperv", "crates/svm-qemu", "crates/svmd", "crates/svm", "crates/svm-app"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.93"
+publish = false
