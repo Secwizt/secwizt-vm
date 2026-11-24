@@ -4,6 +4,12 @@ A desktop virtual machine manager for Windows. Create and run Linux, Windows, An
 
 > **Early preview.** Secwizt VM has been built and tested on one Windows 10 Pro PC only. Expect rough edges, and read [Known limits](#known-limits) before you rely on it.
 
+## Introduction video
+
+A 95-second tour of the real app: ready-to-run machines, verified downloads, the two engines, throwaway machines and the security design.
+
+https://github.com/user-attachments/assets/a2270527-9ec4-43ce-a922-f102c2908a1f
+
 ## Highlights
 
 - **Two engines, one app.** Hyper-V for Windows and modern Linux guests. QEMU with Windows Hypervisor Platform (WHPX) acceleration for x86 Android and BIOS-era guests, and software emulation (TCG) for Arm guests.
