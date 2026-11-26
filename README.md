@@ -4,6 +4,8 @@ A desktop virtual machine manager for Windows. Create and run Linux, Windows, An
 
 > **Early preview.** Secwizt VM has been built and tested on one Windows 10 Pro PC only. Expect rough edges, and read [Known limits](#known-limits) before you rely on it.
 
+**New here?** The [FAQ](FAQ.md) explains how to install Secwizt VM, start a ready-made machine, install an operating system, use snapshots, throwaway machines and networking, and stay safe.
+
 ## Introduction video
 
 A 95-second tour of the real app: ready-to-run machines, verified downloads, the two engines, throwaway machines and the security design.
